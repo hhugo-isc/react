@@ -1,0 +1,11 @@
+.card{
+    @apply p-5 bg-slate-500 rounded-lg;
+}
+
+ul{
+    @apply flex flex-col space-y-5;
+}
+
+li{
+    @apply p-2 border border-gray-100 text-white;
+}

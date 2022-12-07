@@ -1,0 +1,30 @@
+.backdrop {
+  @apply fixed top-0 left-0 bg-black bg-blend-darken
+  opacity-80 w-full h-full;
+}
+
+.card {
+  @apply fixed top-60 left-1/2 -translate-x-1/2 
+    flex flex-col space-y-5 z-50  overflow-hidden
+    bg-white rounded-lg w-96 shadow-sm shadow-white;
+}
+
+header {
+  @apply border-b-4 bg-[#4f005f] text-white p-3;
+}
+
+h2 {
+  @apply font-bold text-2xl;
+}
+
+p {
+  @apply p-4 text-xl;
+}
+
+footer{
+  @apply flex justify-end p-4;
+}
+
+.actions {
+  @apply px-4 py-2 rounded-lg bg-[#4f005f] text-white;
+}

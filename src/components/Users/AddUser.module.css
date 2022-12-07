@@ -1,0 +1,23 @@
+.card {
+  @apply border rounded-xl bg-stone-100;
+}
+
+form {
+  @apply flex flex-col space-y-3 p-5 items-center;
+}
+
+input {
+  @apply block w-full p-1 border border-[#4f005f] focus:outline-none;
+}
+
+label {
+  @apply block w-full max-w-2xl text-left font-bold;
+}
+
+/* input:focus{
+    @apply focus:outline-0;
+} */
+
+/* form input:focus{
+    @apply  ;
+} */
