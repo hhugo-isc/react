@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from "react";
-import { Prompt } from "react-router-dom";
+// import { Prompt } from "react-router-dom";
 import Card from "../UI/Card";
 import LoadingSpinner from "../UI/LoadingSpinner";
 import classes from "./QuoteForm.module.css";
@@ -29,12 +29,12 @@ const QuoteForm = (props) => {
 
   return (
     <Fragment>
-      <Prompt
+      {/* <Prompt
         when={isEntering}
         message={(location) =>
           "Are your sure to leave? All your data will be lost!"
         }
-      />
+      /> */}
       <Card>
         <form
           className={classes.form}
