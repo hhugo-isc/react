@@ -85,6 +85,7 @@ function App() {
       const response = await fetch(
         "https://react-http-f2474-default-rtdb.firebaseio.com/movies.json"
       );
+      
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
